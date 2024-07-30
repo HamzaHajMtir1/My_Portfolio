@@ -42,14 +42,14 @@ export default function LandingHero() {
                 Hamza Haj Mtir
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Frontend and React.js developer
+                Software Engineering
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
                 <span className="text-xl text-accent sm:text-3xl">Hi</span>,
                 I&apos;m
-                <span className="text-accent"> Amit Chauhan</span> , I turn
+                <span className="text-accent"> Hamza Haj Mtir</span> , I turn
                 vision into reality with code and design.
               </div>
             </FadeUp>

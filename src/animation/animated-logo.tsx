@@ -9,7 +9,7 @@ export default function AnimatedLogo() {
     visible: {
       pathLength: 1,
       // Set fill as per your theme
-      fill: "#156165",
+      fill: "#2c76df",
     },
   };
 
@@ -21,6 +21,7 @@ export default function AnimatedLogo() {
         className="h-full w-full fill-accent stroke-accent"
       >
         <motion.path
+          //d="M100 100 H150 V200 H300 V100 H350 V350 H300 V250 H150 V350 H100 Z"
           d="M321.955 420L179.465 127.143L224.998 36.1755L416.91 420H321.955ZM204.867 263.253L128.055 420H33.0897L158.769 168.608L204.867 263.253Z"
           strokeWidth="15"
           variants={iconVariant}
