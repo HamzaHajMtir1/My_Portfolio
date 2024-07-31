@@ -10,18 +10,18 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Amit Chauhan | React and Frontend Developer"
-        description="Learn more about Amit Chauhan, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Hamza Haj Mtir | Full Stack Developer and Video Editor"
+        description="Learn more about Hamza Haj Mtir, an experienced professional full stack developer and video editor. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Amit Chauhan - React and Frontend Developer",
+          title: "Learn About Hamza Haj Mtir - Full Stack Developer and Video Editor",
           description:
-            "Dive into the story of Amit Chauhan, a React and Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Hamza Haj Mtir, a Full Stack Developer and Video Editor. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Hamza Haj Mtir - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -34,7 +34,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
+              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript,Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor, SFC™",
           },
         ]}
       />
