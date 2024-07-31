@@ -5,11 +5,7 @@ import {
   SiNextdotjs,
   SiFlask,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -19,16 +15,11 @@ import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
 import NodejsSvg from "@/public/icons/nodejs.svg";
 
 // CMS
 import WordPressSvg from "@/public/icons/Wordpress.svg";
-
-
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
