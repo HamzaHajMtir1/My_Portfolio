@@ -11,7 +11,7 @@ export interface ProjectCardProps {
   favicon: string;
   imageUrl: string[];
   description: string;
-  sourceCodeHref: string;
+  sourceCodeHref?: string;
   liveWebsiteHref?: string;
 }
 
