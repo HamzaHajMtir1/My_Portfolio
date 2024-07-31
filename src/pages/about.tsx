@@ -15,7 +15,8 @@ export default function About() {
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Hamza Haj Mtir - Full Stack Developer and Video Editor",
+          title:
+            "Learn About Hamza Haj Mtir - Full Stack Developer and Video Editor",
           description:
             "Dive into the story of Hamza Haj Mtir, a Full Stack Developer and Video Editor. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions.",
           images: [
@@ -34,7 +35,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript,Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor, SFC™",
+              "About Me, React Developer, Frontend Developer, Web Developer, Nextjs, JavaScript,Java, Python, PHP, C, HTML, CSS, Professional Journey, Skills, Passion for Web Development, Software Engineering, Full Stack Developer, Web Designer, Video Editor, SFC™",
           },
         ]}
       />
