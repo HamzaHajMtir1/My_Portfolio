@@ -2,35 +2,35 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Reactjs Frontend Developer",
+    title: "PFE internship",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Sindibad Group",
+      href: "https://sindibadgroup.com/",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "Feb 2024 - May 2024",
+    location: "Sousse - Tunisie",
+    description:
+      "Develop a digitalization platform for the call for tenders process",
   },
   {
-    title: "Engineering Trainee",
+    title: "Summer internship",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Bridge 4 Talents",
+      href: "https://bridge4talents.ca/",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
-    description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+    date: "June 2023 - July 2023",
+    location: "Teboulba, Tunisie",
+    description: "Develop a Directory of clinics in Canada, Quebec",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Founder / Web Developer at EndlessByte",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "EnlessByte",
+      href: "#",
     },
-    date: "Winter - 2022",
+    date: "June 2023 - Present",
     location: "Remote",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Endless Byte is a specialized web and mobile development team dedicated to turning your ideas into online solutions.",
   },
 ];
