@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Hamza Haj Mtir - Full Stack Developer and Video Editor Portfolio"
+        title="Projects by Hamza Haj Mtir"
         description="Explore a collection of projects by Hamza Haj Mtir, a seasoned Full Stack Developer and Video Editor. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
