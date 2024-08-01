@@ -4,7 +4,8 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+import heroProfileImg from "@/public/images/hamza.jpeg";
+import TunisieFlag from "@/public/images/tn.png";
 
 export default function AboutHero() {
   return (
@@ -16,7 +17,7 @@ export default function AboutHero() {
               src={heroProfileImg}
               width={100}
               height={100}
-              className="h-auto w-full px-0 xl:px-16"
+              className="h-auto w-full rounded-full px-0 xl:px-16"
               alt="hero image"
               unoptimized
             />
@@ -26,8 +27,11 @@ export default function AboutHero() {
       <div className="sm:1/2 mt-10 w-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
-            <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Hamza Haj Mtir
+            <span className="mt-4 block text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
+              Hi, I&apos;m
+            </span>
+            <h1 className="mt-2 text-5xl font-bold text-accent sm:text-6xl md:text-5xl lg:text-4xl xl:text-6xl">
+              Hamza Haj Mtir
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
@@ -39,8 +43,8 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest projects showcasing my expertise in Reactjs,
-              Nextjs, Javascript, Typescript and web development.
+              Explore my latest projects showcasing my expertise in web
+              development and video editing.
             </p>
           </FadeUp>
           <FadeRight
@@ -53,13 +57,13 @@ export default function AboutHero() {
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
                 alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
-                width={15}
-                height={15}
+                src={TunisieFlag}
+                width={17}
+                height={17}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Bekalta, Monastir, Tunisie
             </span>
           </FadeRight>
         </AnimatePresence>
