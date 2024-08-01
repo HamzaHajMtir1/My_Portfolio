@@ -35,6 +35,7 @@ import DockerSvg from "@/public/icons/docker.svg";
 import AngularSvg from "@/public/icons/angular.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 import LinuxSvg from "@/public/icons/linux.svg";
+import GitHubSvg from "@/public/icons/github.svg";
 
 // Video Editing Tools
 import PremierSvg from "@/public/icons/Premiere_Pro.svg";
@@ -154,6 +155,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Git",
         icon: GitSvg,
+      },
+      {
+        name: "GitHub",
+        icon: GitHubSvg,
       },
       {
         name: "Docker",
