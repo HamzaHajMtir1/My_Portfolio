@@ -1,38 +1,38 @@
-import { AnimatePresence, Variants, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
+import logo from "@/public/images/logo.png";
 
 export default function AnimatedLogo() {
-  const iconVariant: Variants = {
+  const animationVariants = {
     hidden: {
-      pathLength: 0,
-      fill: "rgba(0, 0, 0, 0)",
+      opacity: 0,
+      scale: 0.8,
     },
     visible: {
-      pathLength: 1,
-      // Set fill as per your theme
-      fill: "#2c76df",
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 1,
+        ease: "easeInOut",
+      },
     },
   };
 
   return (
     <AnimatePresence>
-      <motion.svg
-        viewBox="0 0 450 450"
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-full w-full fill-accent stroke-accent"
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={animationVariants}
+        className="flex h-full w-full items-center justify-center"
       >
-        <motion.path
-          //d="M100 100 H150 V200 H300 V100 H350 V350 H300 V250 H150 V350 H100 Z"
-          d="M321.955 420L179.465 127.143L224.998 36.1755L416.91 420H321.955ZM204.867 263.253L128.055 420H33.0897L158.769 168.608L204.867 263.253Z"
-          strokeWidth="15"
-          variants={iconVariant}
-          initial="hidden"
-          animate="visible"
-          transition={{
-            default: { duration: 3, ease: "easeInOut" },
-            fill: { duration: 3, ease: [1, 0, 0.8, 1] },
-          }}
+        <Image
+          src={logo}
+          alt="Logo"
+          width={300} // Ajustez la largeur selon vos besoins
+          height={300} // Ajustez la hauteur selon vos besoins
         />
-      </motion.svg>
+      </motion.div>
     </AnimatePresence>
   );
 }

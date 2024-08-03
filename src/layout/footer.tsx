@@ -16,16 +16,18 @@ export default function Footer() {
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-7xl"
         >
-          <span>hamzahajmtir@</span>
-          <br />
-          <span>gmail.com</span>
+          <span>hamzahajmtir@gmail.com</span>
         </a>
         <div className="flex justify-center">
           <ContactButton />
         </div>
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
-        <span className="text-foreground">©2024 Hamza Haj Mtir</span>
+        <span className="text-foreground">
+          Developed by{" "}
+          <span className="font-bold text-accent">Hamza Haj Mtir</span> © 2024,
+          All rights reserved.
+        </span>
         <div className="flex gap-8">
           <a
             href={siteMetadata.github}

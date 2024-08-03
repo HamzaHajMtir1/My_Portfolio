@@ -3,10 +3,15 @@ import { NextSeo } from "next-seo";
 import ProjectCard from "@/components/projects/project-card";
 import { PROJECTS_CARD } from "@/data/projects";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import CursorTrailCanvas from "@/components/cursor-trail-canvas";
 
 export default function Projects() {
   return (
     <>
+      <CursorTrailCanvas
+        className="pointer-events-none fixed inset-0 -z-10 h-full w-full"
+        color="#F25B19"
+      />
       <NextSeo
         title="Projects by Hamza Haj Mtir"
         description="Explore a collection of projects by Hamza Haj Mtir, a seasoned Full Stack Developer and Video Editor. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."

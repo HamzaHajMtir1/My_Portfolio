@@ -13,7 +13,10 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export default function Home() {
   return (
     <>
-      <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
+      <CursorTrailCanvas
+        className="pointer-events-none fixed inset-0 -z-10 h-full w-full"
+        color="#F25B19"
+      />
       <NextSeo
         title="Hamza Haj Mtir | Full Stack Developer and Video Editor"
         description="Explore the professional portfolio of Hamza Haj Mtir, an experienced professional full stack developer and video editor. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
