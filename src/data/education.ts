@@ -14,7 +14,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
     title: "Baccalaureate in Computer Science",
     organisation: {
-      name: "Bekalta Secondary High School",
+      name: "Bekalta Secondary School",
       href: "#",
     },
     date: "2020-2021",
