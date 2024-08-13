@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
+import { MailIcon } from "lucide-react";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -17,6 +18,10 @@ export default function LandingHero() {
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
+  };
+  const handleClick = () => {
+    // Add your click handling logic here
+    console.log("Button clicked");
   };
 
   useEffect(() => {
@@ -54,6 +59,17 @@ export default function LandingHero() {
                 <span className="text-accent"> Hamza Haj Mtir</span> , I turn
                 your vision into reality.
               </div>
+            </FadeUp>
+            <FadeUp key="resume" duration={0.6} delay={0.2}>
+              <button
+                className="mt-7 inline-flex items-center gap-2 rounded-md bg-destructive-foreground px-3 py-2 text-accent transition-transform duration-150 focus-within:scale-[1.05] hover:scale-[1.05] hover:bg-foreground hover:text-background"
+                onClick={handleClick}
+              >
+                <MailIcon className="h-6 w-6 sm:h-7 sm:w-7 lg:h-9 lg:w-9" />
+                <span className="text-base font-semibold sm:text-lg lg:text-xl">
+                  Send Message
+                </span>
+              </button>
             </FadeUp>
           </AnimatePresence>
         </div>
