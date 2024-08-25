@@ -6,6 +6,7 @@ import { AnimatePresence } from "framer-motion";
 
 import MainLayout from "@/layout/main-layout";
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <MainLayout>
         <AnimatePresence mode="wait" initial={false}>
           <Component key={router.asPath} {...pageProps} />
+          <Analytics />
         </AnimatePresence>
       </MainLayout>
     </ThemeProvider>
