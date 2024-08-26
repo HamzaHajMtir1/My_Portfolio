@@ -23,10 +23,9 @@ export default function Home() {
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title:
-            "Hamza Haj Mtir - Full Stack Developer and Video Editor Portfolio",
+          title: "Hamza Haj Mtir | Full Stack Developer and Video Editor",
           description:
-            "Dive into the world of web development an video editing with Hamza Haj Mtir. a Full Stack Developer and Video Editor. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions",
+            "Explore my journey, recent projects, and expertise as a full stack developer and video editor",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
