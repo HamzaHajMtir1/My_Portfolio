@@ -43,7 +43,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "The LEONI OTMS platform which allows suppliers to more easily apply for tenders submitted by the company and also makes it easier for the company to choose the right suppliers for calls for tenders. LEONI OTMS puts the relationship between the company and suppliers in complete transparency.",
     sourceCodeHref: "https://github.com/HamzaHajMtir1/InnovaMarkets-Frontend",
-    liveWebsiteHref: "#",
   },
   {
     name: "Promolab",
@@ -88,5 +87,23 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "This project is a comprehensive car sales site built with Odoo, offering detailed car listings and a user-friendly interface for inventory management and customer requests. Utilizing Odoo's modules such as eCommerce, CRM, and Accounting, the site ensures seamless integration of sales, inventory, and customer relationship management.",
     sourceCodeHref: "https://github.com/HamzaHajMtir1/bouhmez-company",
     liveWebsiteHref: siteMetadata.siteUrl,
+  },
+  {
+    name: "DefendHer",
+    favicon: "/images/projects/logos/defenHer.ico",
+    imageUrl: ["/images/projects/defendHer.webp"],
+    description:
+      "The Defend Her website is a showcase for our browser extension, which helps protect users by blurring harassment and offensive language 🌐🚫💬. It also features Touta, an interactive chat assistant 🤖💬, who guides users through the extension's features, offering support and insights to promote a safer, more respectful online environment 🌸✨.",
+    sourceCodeHref: "https://github.com/HamzaHajMtir1/wie-act-challenge",
+    liveWebsiteHref: "https://defend-her.vercel.app/",
+  },
+  {
+    name: "DefendHer",
+    favicon: "/images/projects/logos/weCare.ico",
+    imageUrl: ["/images/projects/weCare.webp"],
+    description:
+      "We act is a website designed to support cancer patients by boosting morale, connecting them with specialized doctors, and providing educational resources on cancer and treatment. Our goal is to empower patients with information and hope, fostering a compassionate online community.",
+    sourceCodeHref: "https://github.com/HamzaHajMtir1/wie-heal-challange",
+    liveWebsiteHref: "https://we-care1.vercel.app/",
   },
 ];
