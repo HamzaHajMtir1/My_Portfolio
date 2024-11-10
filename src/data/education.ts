@@ -2,6 +2,16 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
+    title: "Master's degree in Data Science",
+    organisation: {
+      name: "ISIMM | Higher Institute of Informatics and Mathematics of Monastir",
+      href: "http://www.isimm.rnu.tn/public/",
+    },
+    date: "2024-Present",
+    location: "Monastir - Tunisie",
+    description: "",
+  },
+  {
     title: "Bachelor in Software Engineering and Information System",
     organisation: {
       name: "ISIMM | Higher Institute of Informatics and Mathematics of Monastir",
