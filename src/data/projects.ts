@@ -5,32 +5,32 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "We Care",
+    href: "/projects",
+    tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
+    image: {
+      LIGHT: "/images/projects/weCare.webp",
+      DARK: "/images/projects/weCare.webp",
+    },
+  },
+  {
+    index: 1,
+    title: "DefendHer",
+    href: "/projects",
+    tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
+    image: {
+      LIGHT: "/images/projects/defendHer.webp",
+      DARK: "/images/projects/defendHer.webp",
+    },
+  },
+  {
+    index: 2,
     title: "LEONI OTMS",
     href: "/projects",
     tags: ["Angular", "Bootstrap", "Spring Boot", "PostgreSQL", "Docker"],
     image: {
       LIGHT: "/images/projects/LEONI-OTMS.webp",
       DARK: "/images/projects/LEONI-OTMS.webp",
-    },
-  },
-  {
-    index: 1,
-    title: "Promolab",
-    href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "SupaBase", "Vercel"],
-    image: {
-      LIGHT: "/images/projects/promolab.webp",
-      DARK: "/images/projects/promolab.webp",
-    },
-  },
-  {
-    index: 2,
-    title: "Gaoua Gold",
-    href: "/projects",
-    tags: ["WordPress"],
-    image: {
-      LIGHT: "/images/projects/Gaoua-gold.webp",
-      DARK: "/images/projects/Gaoua-gold.webp",
     },
   },
 ];
@@ -98,7 +98,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://defend-her.vercel.app/",
   },
   {
-    name: "DefendHer",
+    name: "We Care",
     favicon: "/images/projects/logos/weCare.ico",
     imageUrl: ["/images/projects/weCare.webp"],
     description:

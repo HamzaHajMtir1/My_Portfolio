@@ -1,5 +1,10 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, FacebookIcon } from "@/components/icons";
+import {
+  GithubIcon,
+  LinkedinIcon,
+  FacebookIcon,
+  InstagramIcon,
+} from "@/components/icons"; // Import InstagramIcon
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -41,7 +46,7 @@ export default function Footer() {
             href={siteMetadata.facebook}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Twitter"
+            aria-label="link to Facebook"
           >
             <FacebookIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
@@ -52,6 +57,14 @@ export default function Footer() {
             aria-label="link to Linkedin"
           >
             <LinkedinIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
+          </a>
+          <a
+            href={siteMetadata.instagram}
+            target="_blank"
+            className="h-6 w-6"
+            aria-label="link to Instagram"
+          >
+            <InstagramIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
         </div>
       </div>

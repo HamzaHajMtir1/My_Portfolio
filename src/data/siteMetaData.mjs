@@ -16,6 +16,7 @@ export const siteMetadata = {
   github: "https://github.com/HamzaHajMtir1",
   facebook: "https://www.facebook.com/profile.php?id=100009080517074",
   linkedin: "https://www.linkedin.com/in/hamza-haj-mtir-3345a8220/",
+  instagram: "https://www.instagram.com/hamza.haj.mtir/",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
