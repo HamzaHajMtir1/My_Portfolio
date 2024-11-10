@@ -13,6 +13,7 @@ import { classNames } from "@/utility/classNames";
 export type NavbarRoute = {
   title: string;
   href: string;
+  download?: boolean;
 };
 
 export type NavbarRoutes = NavbarRoute[];
@@ -50,32 +51,62 @@ export default function Navbar(props: NavbarProps) {
                   key={index}
                   className="my-3 transition-transform duration-100 hover:scale-[1.1]"
                 >
-                  <Link
-                    href={_link.href}
-                    className={classNames(
-                      pathName === _link.href
-                        ? "font-semibold text-background dark:hover:text-foreground"
-                        : "text-foreground",
-                      "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
-                    )}
-                  >
-                    {_link.href === pathName && (
-                      <motion.span
-                        layoutId="tab-pill"
-                        animate={{
-                          transition: {
-                            x: {
-                              type: "spring",
-                              stiffness: 300,
-                              damping: 30,
+                  {_link.download ? (
+                    <a
+                      href={_link.href}
+                      download
+                      className={classNames(
+                        pathName === _link.href
+                          ? "font-semibold text-background dark:hover:text-foreground"
+                          : "text-foreground",
+                        "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
+                      )}
+                    >
+                      {_link.href === pathName && (
+                        <motion.span
+                          layoutId="tab-pill"
+                          animate={{
+                            transition: {
+                              x: {
+                                type: "spring",
+                                stiffness: 300,
+                                damping: 30,
+                              },
                             },
-                          },
-                        }}
-                        className="absolute inset-0 -z-10 rounded-full bg-accent group-hover:bg-accent/80"
-                      ></motion.span>
-                    )}
-                    {_link.title}
-                  </Link>
+                          }}
+                          className="absolute inset-0 -z-10 rounded-full bg-accent group-hover:bg-accent/80"
+                        ></motion.span>
+                      )}
+                      {_link.title}
+                    </a>
+                  ) : (
+                    <Link
+                      href={_link.href}
+                      className={classNames(
+                        pathName === _link.href
+                          ? "font-semibold text-background dark:hover:text-foreground"
+                          : "text-foreground",
+                        "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
+                      )}
+                    >
+                      {_link.href === pathName && (
+                        <motion.span
+                          layoutId="tab-pill"
+                          animate={{
+                            transition: {
+                              x: {
+                                type: "spring",
+                                stiffness: 300,
+                                damping: 30,
+                              },
+                            },
+                          }}
+                          className="absolute inset-0 -z-10 rounded-full bg-accent group-hover:bg-accent/80"
+                        ></motion.span>
+                      )}
+                      {_link.title}
+                    </Link>
+                  )}
                 </li>
               );
             })}
