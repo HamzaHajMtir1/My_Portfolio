@@ -7,7 +7,6 @@ import { AnimatePresence } from "framer-motion";
 import MainLayout from "@/layout/main-layout";
 import "@/styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -17,7 +16,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <AnimatePresence mode="wait" initial={false}>
           <Component key={router.asPath} {...pageProps} />
           <Analytics />
-          <SpeedInsights />
         </AnimatePresence>
       </MainLayout>
     </ThemeProvider>
