@@ -8,6 +8,8 @@ import {
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="flex w-full flex-col items-center gap-20 bg-transparent px-6 py-8 sm:px-14 md:px-20">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
@@ -30,8 +32,8 @@ export default function Footer() {
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-foreground">
           Developed by{" "}
-          <span className="font-bold text-accent">Hamza Haj Mtir</span> © 2024,
-          All rights reserved.
+          <span className="font-bold text-accent">Hamza Haj Mtir</span> ©{" "}
+          {currentYear}, All rights reserved.
         </span>
         <div className="flex gap-8">
           <a
