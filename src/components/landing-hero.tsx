@@ -42,13 +42,13 @@ export default function LandingHero() {
                 <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
                   Hamza Haj Mtir
                 </h1>
-                <span className="mt-4 block text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
+                <span className="ml-2 mt-4 block text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
                   Full Stack Developer
                 </span>
               </div>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
-              <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
+              <div className="ml-2 mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
                 <span className="text-xl text-accent sm:text-3xl">Hi</span>,
                 I&apos;m
                 <span className="text-accent"> Hamza Haj Mtir</span> , I turn
