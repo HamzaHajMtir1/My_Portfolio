@@ -44,7 +44,7 @@ export default function AboutHero() {
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest projects showcasing my expertise in web
-              development and video editing.
+              development.
             </p>
           </FadeUp>
           <FadeRight
