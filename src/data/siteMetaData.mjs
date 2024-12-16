@@ -2,7 +2,7 @@ export const siteMetadata = {
   title: "Hamza Haj Mtir portfolio",
   author: "Hamza Haj Mtir",
   headerTitle: "Hamza Haj Mtir",
-  description: "Full Stack Developer and Video Editor",
+  description: "Full Stack Developer",
   language: "en-us",
   theme: "light",
   siteName: "",

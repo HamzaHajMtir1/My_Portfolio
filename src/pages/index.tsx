@@ -18,14 +18,14 @@ export default function Home() {
         color="#F25B19"
       />
       <NextSeo
-        title="Hamza Haj Mtir | Full Stack Developer and Video Editor"
-        description="Explore the professional portfolio of Hamza Haj Mtir, an experienced professional full stack developer and video editor. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
+        title="Hamza Haj Mtir | Full Stack Developer"
+        description="Explore the professional portfolio of Hamza Haj Mtir, an experienced professional full stack developer. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Hamza Haj Mtir | Full Stack Developer and Video Editor",
+          title: "Hamza Haj Mtir | Full Stack Developer",
           description:
-            "Explore my journey, recent projects, and expertise as a full stack developer and video editor",
+            "Explore my journey, recent projects, and expertise as a full stack developer",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,

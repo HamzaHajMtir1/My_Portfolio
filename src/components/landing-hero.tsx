@@ -43,7 +43,7 @@ export default function LandingHero() {
                   Hamza Haj Mtir
                 </h1>
                 <span className="mt-4 block text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                  Full Stack Developer and Video Editor
+                  Full Stack Developer
                 </span>
               </div>
             </FadeUp>

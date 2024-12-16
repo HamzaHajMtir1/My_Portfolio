@@ -16,14 +16,13 @@ export default function About() {
       />
       <NextSeo
         title="About | Hamza Haj Mtir"
-        description="Learn more about Hamza Haj Mtir, an experienced professional full stack developer and video editor. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
+        description="Learn more about Hamza Haj Mtir, an experienced professional full stack developer. Discover the journey, skills and passion that drives me to create innovative web and video solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title:
-            "Learn About Hamza Haj Mtir - Full Stack Developer and Video Editor",
+          title: "Learn About Hamza Haj Mtir - Full Stack Developer",
           description:
-            "Dive into the story of Hamza Haj Mtir, a Full Stack Developer and Video Editor. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions.",
+            "Dive into the story of Hamza Haj Mtir, a Full Stack Developer. Discover the experience, skills, and passion that fuel a commitment to delivering exceptional web and video solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,

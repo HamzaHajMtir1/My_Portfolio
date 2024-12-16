@@ -14,14 +14,13 @@ export default function Projects() {
       />
       <NextSeo
         title="Projects by Hamza Haj Mtir"
-        description="Explore a collection of projects by Hamza Haj Mtir, a seasoned Full Stack Developer and Video Editor. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        description="Explore a collection of projects by Hamza Haj Mtir, a seasoned Full Stack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title:
-            "Discover Projects by Hamza Haj Mtir - Full Stack Developer and Video Editor",
+          title: "Discover Projects by Hamza Haj Mtir - Full Stack Developer",
           description:
-            "Explore a showcase of projects crafted by Hamza Haj Mtir, a Full Stack Developer and Video Editor. See the fusion of creativity and technology in web development and video editing.",
+            "Explore a showcase of projects crafted by Hamza Haj Mtir, a Full Stack Developer. See the fusion of creativity and technology in web development and video editing.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,

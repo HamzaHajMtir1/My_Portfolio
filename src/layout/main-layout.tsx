@@ -6,7 +6,6 @@ import Navbar from "@/layout/navbar";
 import Footer from "@/layout/footer";
 import { routes } from "@/data/navigationRoutes";
 import { classNames } from "@/utility/classNames";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -21,10 +20,7 @@ export default function MainLayout(props: MainLayoutProps) {
     <>
       <div className={classNames("min-h-screen", montserrat.className)}>
         <Navbar routes={routes} />
-        <main>
-          {props.children}
-          <SpeedInsights />
-        </main>
+        <main>{props.children}</main>
       </div>
       <Footer />
     </>
