@@ -5,6 +5,16 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
+    title: "IAS/PES ISIMM sbjc",
+    href: "/projects",
+    tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
+    image: {
+      LIGHT: "/images/projects/IAS-PES.webp",
+      DARK: "/images/projects/IAS-PES.webp",
+    },
+  },
+  {
+    index: 1,
     title: "We Care",
     href: "/projects",
     tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
@@ -14,7 +24,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 1,
+    index: 2,
     title: "DefendHer",
     href: "/projects",
     tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
@@ -23,19 +33,45 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/defendHer.webp",
     },
   },
-  {
-    index: 2,
-    title: "LEONI OTMS",
-    href: "/projects",
-    tags: ["Angular", "Bootstrap", "Spring Boot", "PostgreSQL", "Docker"],
-    image: {
-      LIGHT: "/images/projects/LEONI-OTMS.webp",
-      DARK: "/images/projects/LEONI-OTMS.webp",
-    },
-  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "IEEE IAS/PES ISIMM SBJC",
+    favicon: "/images/projects/logos/IAS-PES.ico",
+    imageUrl: ["/images/projects/IAS-PES.webp"],
+    description:
+      "This is the official website for the IAS-PES Joint Chapter at ISIMM. Built with modern web technologies, the site serves as a hub for sharing chapter updates, events, resources, and achievements.",
+    sourceCodeHref:
+      "https://github.com/HamzaHajMtir1/IAS-PES-ISIMM-Joint-Chapter-Website",
+    liveWebsiteHref: "https://ias-pes-isimm.ieee.tn/",
+  },
+  {
+    name: "Sanitaire Design",
+    favicon: "/images/projects/logos/SanitaireDesign.ico",
+    imageUrl: ["/images/projects/SanitaireDesign.webp"],
+    description:
+      "Sanitaire Design, a specialist in bathroom equipment, offers a wide range of shower trays and enclosures, wall panels, sinks, and faucets (shower columns, mixers, etc.).",
+    liveWebsiteHref: "https://sanitairedesign.net/",
+  },
+  {
+    name: "We Care",
+    favicon: "/images/projects/logos/weCare.ico",
+    imageUrl: ["/images/projects/weCare.webp"],
+    description:
+      "We act is a website designed to support cancer patients by boosting morale, connecting them with specialized doctors, and providing educational resources on cancer and treatment. Our goal is to empower patients with information and hope, fostering a compassionate online community.",
+    sourceCodeHref: "https://github.com/HamzaHajMtir1/wie-heal-challange",
+    liveWebsiteHref: "https://we-care1.vercel.app/",
+  },
+  {
+    name: "DefendHer",
+    favicon: "/images/projects/logos/defenHer.ico",
+    imageUrl: ["/images/projects/defendHer.webp"],
+    description:
+      "The Defend Her website is a showcase for our browser extension, which helps protect users by blurring harassment and offensive language 🌐🚫💬. It also features Touta, an interactive chat assistant 🤖💬, who guides users through the extension's features, offering support and insights to promote a safer, more respectful online environment 🌸✨.",
+    sourceCodeHref: "https://github.com/HamzaHajMtir1/wie-act-challenge",
+    liveWebsiteHref: "https://defend-her.vercel.app/",
+  },
   {
     name: "LEONI OTMS",
     favicon: "/images/projects/logos/leoni.ico",
@@ -87,23 +123,5 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "This project is a comprehensive car sales site built with Odoo, offering detailed car listings and a user-friendly interface for inventory management and customer requests. Utilizing Odoo's modules such as eCommerce, CRM, and Accounting, the site ensures seamless integration of sales, inventory, and customer relationship management.",
     sourceCodeHref: "https://github.com/HamzaHajMtir1/bouhmez-company",
     liveWebsiteHref: siteMetadata.siteUrl,
-  },
-  {
-    name: "DefendHer",
-    favicon: "/images/projects/logos/defenHer.ico",
-    imageUrl: ["/images/projects/defendHer.webp"],
-    description:
-      "The Defend Her website is a showcase for our browser extension, which helps protect users by blurring harassment and offensive language 🌐🚫💬. It also features Touta, an interactive chat assistant 🤖💬, who guides users through the extension's features, offering support and insights to promote a safer, more respectful online environment 🌸✨.",
-    sourceCodeHref: "https://github.com/HamzaHajMtir1/wie-act-challenge",
-    liveWebsiteHref: "https://defend-her.vercel.app/",
-  },
-  {
-    name: "We Care",
-    favicon: "/images/projects/logos/weCare.ico",
-    imageUrl: ["/images/projects/weCare.webp"],
-    description:
-      "We act is a website designed to support cancer patients by boosting morale, connecting them with specialized doctors, and providing educational resources on cancer and treatment. Our goal is to empower patients with information and hope, fostering a compassionate online community.",
-    sourceCodeHref: "https://github.com/HamzaHajMtir1/wie-heal-challange",
-    liveWebsiteHref: "https://we-care1.vercel.app/",
   },
 ];
