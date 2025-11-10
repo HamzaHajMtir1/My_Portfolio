@@ -5,7 +5,17 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "IAS/PES ISIMM sbjc",
+    title: "Wie Empower",
+    href: "/projects",
+    tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
+    image: {
+      LIGHT: "/images/projects/WieAct.webp",
+      DARK: "/images/projects/WieAct.webp",
+    },
+  },
+  {
+    index: 1,
+    title: "IAS/PES ISIMM",
     href: "/projects",
     tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
     image: {
@@ -14,28 +24,36 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
   },
   {
-    index: 1,
-    title: "We Care",
-    href: "/projects",
-    tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
-    image: {
-      LIGHT: "/images/projects/weCare.webp",
-      DARK: "/images/projects/weCare.webp",
-    },
-  },
-  {
     index: 2,
-    title: "DefendHer",
+    title: "IEEE SDC",
     href: "/projects",
     tags: ["Nextjs", "React", "Tailwindcss", "Json", "Vercel"],
     image: {
-      LIGHT: "/images/projects/defendHer.webp",
-      DARK: "/images/projects/defendHer.webp",
+      LIGHT: "/images/projects/SDC.webp",
+      DARK: "/images/projects/SDC.webp",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
+  {
+    name: "Wie Empowerment",
+    favicon: "/images/projects/logos/WieAct.ico",
+    imageUrl: ["/images/projects/WieAct.webp"],
+    description:
+      "Wie Empowerment is a web platform designed to support women working in agriculture. It integrates an AI system that detects potential risks in the field and notifies administrators via GPS tracking through electronic bracelets. The platform also includes an online shop where users can order agricultural tools.",
+    sourceCodeHref: "https://github.com/HamzaHajMtir1/Wie-Act-4.0",
+    liveWebsiteHref: "https://wie-act-4-0.vercel.app/",
+  },
+  {
+    name: "IEEE SIGHT Day Congress",
+    favicon: "/images/projects/logos/SDC.ico",
+    imageUrl: ["/images/projects/SDC.webp"],
+    description:
+      "This is the official website for the IEEE SIGHT Day Congress. Built with modern web technologies, The event culminated in a friendly competition to determine the best SIGHT group in Tunisia Section , with the winning group earning the honor of hosting the next edition of the congress.",
+    sourceCodeHref: "https://github.com/HamzaHajMtir1/IEEE-Sight-Day-Congress",
+    liveWebsiteHref: "https://ieee-sight-day-congress.vercel.app/",
+  },
   {
     name: "IEEE IAS/PES ISIMM SBJC",
     favicon: "/images/projects/logos/IAS-PES.ico",

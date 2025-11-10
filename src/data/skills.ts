@@ -11,6 +11,7 @@ import CSvg from "@/public/icons/C.svg";
 import JavaSvg from "@/public/icons/java.svg";
 import PHPSvg from "@/public/icons/PHP.svg";
 import BootstrapSvg from "@/public/icons/Bootstrap.svg";
+import DjangoSVG from "@/public/icons/django.svg";
 
 // CMS
 import WordPressSvg from "@/public/icons/Wordpress.svg";
@@ -32,6 +33,9 @@ import GitHubSvg from "@/public/icons/github.svg";
 
 // Video Editing Tools
 import PremierSvg from "@/public/icons/Premiere_Pro.svg";
+
+// Plateforms
+import GoogleSvg from "@/public/icons/google.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -64,6 +68,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "Django",
+        icon: DjangoSVG,
       },
       {
         name: "Java",
@@ -136,6 +144,15 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Linux",
         icon: LinuxSvg,
+      },
+    ],
+  },
+  {
+    sectionName: "Platforms",
+    skills: [
+      {
+        name: "Google Cloud",
+        icon: GoogleSvg,
       },
     ],
   },

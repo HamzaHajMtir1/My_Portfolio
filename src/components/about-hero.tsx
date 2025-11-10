@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/hamza.jpeg";
+import heroProfileImg from "@/public/images/hamza.png";
 import TunisieFlag from "@/public/images/tn.png";
 
 export default function AboutHero() {

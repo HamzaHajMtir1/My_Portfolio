@@ -2,12 +2,22 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
+    title: "Engineering degree specializing in cloud computing",
+    organisation: {
+      name: "EPI - International Multidisciplinary School",
+      href: "https://www.episup.com/fr/epi-digital-school-0",
+    },
+    date: "2025 - Present",
+    location: "Sousse - Tunisie",
+    description: "",
+  },
+  {
     title: "Master's degree in Data Science",
     organisation: {
       name: "ISIMM | Higher Institute of Informatics and Mathematics of Monastir",
       href: "http://www.isimm.rnu.tn/public/",
     },
-    date: "2024-Present",
+    date: "2024 - Present",
     location: "Monastir - Tunisie",
     description: "",
   },
@@ -17,7 +27,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
       name: "ISIMM | Higher Institute of Informatics and Mathematics of Monastir",
       href: "http://www.isimm.rnu.tn/public/",
     },
-    date: "2021-2024",
+    date: "2021 - 2024",
     location: "Monastir - Tunisie",
     description: "",
   },
