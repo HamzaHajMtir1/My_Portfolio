@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 rounded-3xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
         <div className="text-center">
           <span className="mb-6 cursor-pointer text-center text-xl font-bold sm:text-2xl lg:text-4xl">
-            Interested in working together ?
+            Interested in working together?
           </span>
         </div>
         <div className="flex justify-center">
