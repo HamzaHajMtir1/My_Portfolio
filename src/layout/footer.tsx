@@ -12,19 +12,12 @@ export default function Footer() {
 
   return (
     <footer className="flex w-full flex-col items-center gap-20 bg-transparent px-6 py-8 sm:px-14 md:px-20">
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 rounded-2xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 rounded-3xl bg-accent p-8 text-background sm:p-12 md:gap-12 lg:p-20">
         <div className="text-center">
-          <span className="inline-block rounded-full bg-background px-3 py-1 text-xs font-semibold uppercase text-accent md:text-sm lg:text-base">
-            Get in touch
+          <span className="mb-6 cursor-pointer text-center text-xl font-bold sm:text-2xl lg:text-4xl">
+            Interested in working together ?
           </span>
         </div>
-        <a
-          href={`mailto:${siteMetadata.email}`}
-          target="_blank"
-          className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-7xl"
-        >
-          <span>hamzahajmtir@gmail.com</span>
-        </a>
         <div className="flex justify-center">
           <ContactButton />
         </div>
